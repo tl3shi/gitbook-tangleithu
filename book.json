@@ -2,5 +2,42 @@
     "title": "公众号[程序猿石头]经典文章集合",
     "description": "清华毕业的打工仔，分享计算机领域的技术、职场和大学生学习方法，涉及后端技术、互联网、计算机基础、编程技术、程序员职场、程序员面试等话题，欢迎关注。",
     "author": "石头哥，微信:codershitou",
-    "language": "zh-hans"
+    "language": "zh-hans",
+    "links" : {
+    	"sidebar" : {
+        	"Blog" : "https://www.tanglei.name"
+    	}
+	},
+	"plugins": [
+        "code", "page-copyright"
+    ],
+    "pluginsConfig": {
+        "code": {
+            "copyButtons": false
+        },
+       "page-copyright": {
+          "description": "modified at",
+          "signature": "你的签名",
+          "wisdom": "Designer, Frontend Developer & overall web enthusiast",
+          "format": "YYYY-MM-dd hh:mm:ss",
+          "copyright": "Copyright &#169; 你的名字",
+          "timeColor": "#666",
+          "copyrightColor": "#666",
+          "utcOffset": "8",
+          "style": "normal",
+          "noPowered": false
+        }
+    },
+    "pdf": {
+        "pageNumbers": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 40,
+            "left": 40,
+            "top": 56,
+            "bottom": 56
+        }
+    }
 }
