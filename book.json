@@ -5,30 +5,34 @@
     "language": "zh-hans",
     "links" : {
     	"sidebar" : {
-        	"Blog" : "https://www.tanglei.name"
+        	"博客" : "https://www.tanglei.name",
+        	"联系我" : "https://www.tanglei.name/resources/wechat-tangleithu-codershitou.jpg"
     	}
 	},
 	"plugins": [
-        "code", "page-copyright"
+      "code", "page-copyright", "toc"
     ],
-    "pluginsConfig": {
+  
+  "pluginsConfig": {
         "code": {
             "copyButtons": false
-        },
-       "page-copyright": {
-          "description": "modified at",
-          "signature": "你的签名",
-          "wisdom": "Designer, Frontend Developer & overall web enthusiast",
-          "format": "YYYY-MM-dd hh:mm:ss",
-          "copyright": "Copyright &#169; 你的名字",
-          "timeColor": "#666",
-          "copyrightColor": "#666",
-          "utcOffset": "8",
-          "style": "normal",
-          "noPowered": false
-        }
-    },
-    "pdf": {
+        }, 
+        "page-copyright": {
+            "description": "modified at",
+            "signature": "程序猿石头",
+            "wisdom": "清华毕业的打工仔，分享计算机领域的技术、职场和大学生学习方法，涉及后端技术、互联网、计算机基础、编程技术、程序员职场、程序员面试等话题，欢迎关注",
+            "format": "YYYY-MM-dd hh:mm:ss",
+            "copyright": "Copyright &#169; 程序猿石头",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "8",
+            "style": "normal",
+            "isShowQRCode": true,
+            "baseUri": "https://www.tanglei.name/",
+            "noPowered": true
+         }
+  },
+  "pdf": {
         "pageNumbers": true,
         "fontFamily": "Arial",
         "fontSize": 12,

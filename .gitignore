@@ -1,1 +1,5 @@
 .DS_Store
+*.md_new.md
+_book/
+*.pdf
+node_modules/
