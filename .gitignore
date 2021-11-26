@@ -1,5 +1,6 @@
 .DS_Store
 *.md_new.md
+20*.md
 _book/
 *.pdf
 node_modules/
