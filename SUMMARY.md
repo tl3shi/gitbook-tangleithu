@@ -1,6 +1,7 @@
 # 目录
 
-* [公众号【程序猿石头】精华文章合集](README.md)
+* 说明
+  * [公众号【程序猿石头】精华文章合集](README.md)
 * 热门文章
   * [这 10 行比较字符串相等的代码给我整懵了，不信你也来看看](files/2020-06-25-timing-attack-of-safe-equals.md)
   * [从一道面试题谈谈一线大厂码农应该具备的基本能力](files/2020-08-14-revised-talking-about-the-basic-quality-for-frontline-coder-from-an-interview-problem.md)
