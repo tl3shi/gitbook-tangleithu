@@ -6,7 +6,7 @@ def process_blog(link):
     newlink = link
     filename = re.findall(kuohao, newlink)[0]
     #copy file
-    newfilename = filename[filename.find("/")+1:] #+ "_new.md"
+    newfilename = "files/" + filename[filename.find("/")+1:] #+ "_new.md"
     os.system('cp %s %s' % (filename, newfilename))
     with open(filename, 'r') as f:
         content = f.readlines()
